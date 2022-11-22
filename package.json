@@ -23,6 +23,7 @@
     "report": "nyc report --reporter=text-lcov | coveralls || true"
   },
   "dependencies": {
+    "camelize": "^1.0.1",
     "chalk": "^2.4.1",
     "currify": "^3.0.0",
     "split": "^1.0.1",

@@ -14,8 +14,7 @@ async function main({stdin, stdout}, {quiet}) {
     await removeLine(stdin, stdout, {
         quiet,
         rules: [
-            'no-unused-vars',
-            'no-multiple-empty-lines',
+            'camelcase',
         ]
     });
 };
